@@ -4,11 +4,14 @@ body {
 
 
 #content {
+	left:50%;
+	top: 0%;
+	position: absolute;
 	z-index: 9999;
 }
 
 #bgholder{
-	z-index:-100;
+	
 }
 
 #avatar{
@@ -33,10 +36,9 @@ h6 {
 }
 
 .avatar-holder {
-  position: absolute;
   left:50%;
+  margin-top:75%;
   margin-left: -175px;
-  top:15%;
 }
 
 .avatar-holder:hover {
