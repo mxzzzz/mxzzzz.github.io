@@ -31,10 +31,11 @@ h6 {
 }
 
 .avatar-holder {
-  width: 500px;
   animation: shake 0.5s;
   animation-iteration-count: infinite;
-  left:50%;
+  position: absolute;
+  margin-left: 50%;
+  
 }
 
 
