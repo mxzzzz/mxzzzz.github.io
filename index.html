@@ -6,6 +6,12 @@
     <link rel="stylesheet" type="text/css" href="CSS.css">
   </head>
   <body>
+
+    <audio autoplay loop id="myaudio">
+      <source src="music.mp3">
+    </audio>
+
+
       <div id="content">
           <div class=avatar-holder>
               <img id="avatar" src="avatar.jpg" alt="mxz">
@@ -39,6 +45,10 @@
 
 
   <script>
+
+    var audio = document.getElementById("myaudio");
+    audio.volume = 0.2;
+
     (function () {
       var requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame || function (callback) {
               window.setTimeout(callback, 1000 / 60);
