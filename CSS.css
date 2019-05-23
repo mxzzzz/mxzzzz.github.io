@@ -1,5 +1,5 @@
 body {
-	width: 100wh;
+	width: 100vh;
 	height: 90vh;
 	color: #fff;
 	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
@@ -32,11 +32,9 @@ h6 {
 
 .avatar-holder {
   width: 500px;
-  position: absolute;
-  right: 50%;
-  border-radius: 50%;
   animation: shake 0.5s;
   animation-iteration-count: infinite;
+  left:50%;
 }
 
 
