@@ -29,7 +29,7 @@ h6 {
 }
 
 .avatar-holder {
-  animation: shake 1s;
+  animation: shake 2s;
   animation-iteration-count: infinite;
   position: absolute;
   left:50%;
