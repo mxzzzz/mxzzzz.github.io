@@ -8,21 +8,18 @@
   <body>
       <div id="content">
           <div class=avatar-holder>
-  
               <img id="avatar" src="avatar.jpg" alt="mxz">
-      
-      
-            </div>
-            
+                </div>
+
       </div>
       <div id="bgholder">
           <canvas id="bgCanvas"></canvas>
-      </div>
-      
-    
-    
+            </div>
+
+
+
   </body>
-  
+
 
 
 
@@ -97,7 +94,7 @@
       // draw the terrain
       this.terCtx.clearRect(0, 0, width, height);
       this.terCtx.fillStyle = this.fillStyle;
-      
+
       if (new Date().getTime() > this.lastScroll + this.scrollDelay) {
           this.lastScroll = new Date().getTime();
           this.points.push(this.points.shift());
